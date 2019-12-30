@@ -1,6 +1,6 @@
 <template>
-    <div class="intro-container">
-        <h2 class="intro smalltext ">Hello, my name is </h2>
+    <div class="intro-container animated fadeInLeft">
+        <h2 class="intro smalltext ">Hi, my name is </h2>
         <h1 class="intro bigtext">Blessing N. Musungate.</h1>
         <h1 class="intro bigtext">I'm a Computer Engineer. </h1>
         <p class="intro summarytext">I like to develop various software applications - mobile, desktop and webs apps. </p>

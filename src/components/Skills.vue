@@ -3,7 +3,7 @@
             <h1>My Skills</h1>
             <div class="container-row">
                 <h3>Programming Languages</h3>
-                <div class="skills-content">
+                <div class="skills-content animated zoomIn">
                     <div class="img-container" v-for="image in pl" v-bind:key="image.id">
                         <img :src="image.src" :alt="image.text"/>
                         <label>{{image.text}}</label>
@@ -12,7 +12,7 @@
             </div>
             <div class="container-row">
                 <h3>Web</h3>
-                <div class="skills-content">
+                <div class="skills-content animated zoomIn">
                     <div class="img-container" v-for="image in web" v-bind:key="image.id">
                         <img :src="image.src" :alt="image.text"/>
                         <label>{{image.text}}</label>
@@ -23,7 +23,7 @@
           
             <div class="container-row">
                 <h3>Frameworks</h3>
-                <div class="skills-content">
+                <div class="skills-content animated zoomIn">
                     <div class="img-container" v-for="image in frameworks" v-bind:key="image.id">
                         <img :src="image.src" :alt="image.text"/>
                         <label>{{image.text}}</label>
@@ -92,7 +92,7 @@
                 {
                     id: 1,
                     src: require(`../assets/icons/frameworks/nodejs-plain.svg`),
-                    text:'NodeJS'
+                    text:'Node.js'
                 },
                 {
                     id: 2,
@@ -155,5 +155,8 @@
     }
    h3{
        text-decoration: underline;
+   }
+   #custom{
+     animation-delay: 500ms;
    }
     </style>

@@ -1,5 +1,5 @@
 <template>
-    <div id="contact-container">
+    <div id="contact-container" class="animated bounceInUp faster">
         <h1>Let's get in touch</h1>
         <p>I'm currently available for freelance projects. If you have a project you would like me to look at or have any questions about my work, feel to contact me via any one of the options listed below.</p>
         <a :href="email"><img :src="emailsrc" alt="Email"/></a><br/>
@@ -24,7 +24,7 @@ export default {
     font-size: 1.3em;
     width: 60%;
     margin: auto;
-    margin-top: 5vh;
+    margin-top: 5vw;
 }
 
 img{
